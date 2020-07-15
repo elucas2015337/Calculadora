@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.elderlucas.sistema.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnMasMenos" layoutX="25.0" layoutY="433.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="±">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnCero" layoutX="96.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="0">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnPunto" layoutX="167.0" layoutY="433.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text=".">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnIgual" layoutX="229.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="=">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnUno" layoutX="25.0" layoutY="366.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="1">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnDos" layoutX="96.0" layoutY="366.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="2">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnTres" layoutX="167.0" layoutY="366.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="3">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnCuatro" layoutX="25.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="4">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnCinco" layoutX="96.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="5">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnSeis" layoutX="167.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="6">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnMas" layoutX="229.0" layoutY="366.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="+">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnMenos" layoutX="229.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="-">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnSiete" layoutX="25.0" layoutY="234.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="7">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnOcho" layoutX="96.0" layoutY="234.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="8">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnNueve" layoutX="167.0" layoutY="234.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="9">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnMultiplicacion" layoutX="229.0" layoutY="234.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="*">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnCE" layoutX="25.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="CE">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnC" layoutX="96.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="C">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnUnoX" layoutX="167.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="1/X">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnDivision" layoutX="229.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="/">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnRaiz" layoutX="298.0" layoutY="366.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="117.0" prefWidth="50.0" text="√">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnPotencia" layoutX="298.0" layoutY="239.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="117.0" prefWidth="50.0" text="X²">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <Button fx:id="btnPorcentaje" layoutX="298.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="\%">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </Button>
+      <TextField fx:id="txtValores" alignment="CENTER_RIGHT" layoutX="34.0" layoutY="49.0" prefHeight="92.0" prefWidth="316.0">
+         <effect>
+            <DropShadow radius="10.7425" width="23.97" />
+         </effect>
+         <font>
+            <Font name="Lucida Console" size="27.0" />
+         </font>
+      </TextField>
+      <MenuBar layoutY="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Tipo">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Cientifica" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Acerca de">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Programador" />
+            </items>
+          </Menu>
+        </menus>
+         <effect>
+            <DropShadow height="22.485" radius="11.11375" width="23.97" />
+         </effect>
+      </MenuBar>
+   </children>
+</AnchorPane>
